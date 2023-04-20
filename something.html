@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>The Math Quiz Game</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="silly.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h4 id="player1_name"></h4><span id="player1_score"></span> 
+        <br>
+        <h4 id="player2_name"></h4><span id="player2_score"></span>
+    <div class="container">
+    <center>
+        <h2>The Math's Quiz Game: Good Luck</h2>
+        <h3 id="player_question"></h3>
+        <h3 id="player_answer"></h3>
+        <div id="output">
+
+        </div>
+    <h3 style="text-align: center;">Number 1</h3>
+    <input type="text" placeholder="Number 1" id="number1" class="form-control">
+    <h3 style="text-align: center;">Number 2</h3>
+    <input type="text" placeholder="Number 2" id="number2" class="form-control">
+    <br>
+    <br>
+    <br>
+    <button class="btn btn-success" onclick="send()" style="width: 1000px;">Send</button>
+    <br>
+    <br>
+    <br>
+    <a href="index.html"><button>Home</button></a>
+    <br>
+    <br>
+    <br>
+    <a href="fakereward.html"><button class="btn btn-info">Click Here To Gain Your Rewards</button></a>
+    </center>
+</div>
+    <script src="mathquiz.js"></script>
+    </body>
+</html>

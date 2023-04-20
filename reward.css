@@ -1,0 +1,15 @@
+body{
+    background: -webkit-radial-gradient(yellow, blue)
+}
+h1{
+    text-align: center;
+    color: pink;
+}
+h2{
+    text-align: center;
+    color: cyan;
+}
+h3{
+    text-align: center;
+    color: aqua
+}
